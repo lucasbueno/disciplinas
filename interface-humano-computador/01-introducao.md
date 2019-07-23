@@ -11,7 +11,9 @@
 - Mas uma interface ser boa não significa ela ser bonita, ela principalmente deve permitir os usuários realizarem suas tarefas de maneira confortável
 - Existem metodologias de desenvolvimento de software (ver Engenharia de Software) nas quais o desenvolvimento se inicia pela criação e avaliação da interface com o usuário, para só depois partir para codificação das funcionalidades
 - O profissional responsável pelo design da interface (ou *front-end*) pode ser comparado ao arquiteto, enquanto os profissionais responsáveis pela codificação do *front-end* ou do *back-end* podem ser comparados ao engenheiro civil
-- Os caixas eletrônicos são sempre bons exemplos (ou não) da nossa interação com um produto de *software*/*hardware*, mas nossa interação pode ser analisada também para outros produtos menos óbvios, como as torneiras da nossa casa, as maçanetas, as cadeiras, etc.
+- Os caixas eletrônicos são sempre bons exemplos (ou não) da nossa interação com um produto de *software*/*hardware*, mas nossa interação pode ser analisada também para outros produtos menos óbvios, como as torneiras da nossa casa, as maçanetas, as cadeiras, etc. 
+- De certa forma, estas interações alteram a maneira que vivemos. As interações definem o que, como, quem, quando e onde se faz alguma coisa.
+- Uma interação mal planejada pode custar uma vida ou um relacionamento!
 - Pare por um minuto e tente pensar em 2 objetos do seu dia-a-dia com os quais você tem uma boa interação, e 2 com os quais você não tem uma boa interação.
 - O que define uma experiência como positiva ou como negativa?
 - É possível criar uma interação que seja positiva para todos os usuários?
@@ -23,3 +25,4 @@
 #### Referências bibliográficas:
 
 1. Fabrício Teixeira. Introdução e boas práticas em UX Design. Publicado pela Casa do Código em 2017.
+2. Simone D. J. Barbosa e Bruno S. D. Silva. Interação Humano-Computador. Publicado pela Elsevier em 2010.
