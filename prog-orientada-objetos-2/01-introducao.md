@@ -8,7 +8,7 @@
 
 - Neste semestre, já mais avançados, vamos trabalhar com o Java 11 (ou se preferir, o Java 12). O professor utilizará o OpenJDK, mas se você preferir, também pode utilizar o JDK da Oracle. No entanto, o uso do **Eclipse** é **mandatório** `:stuck_out_tongue_closed_eyes:` 
 
-- Vamos começar rodando o HelloWorld do JavaFXem .fxml utilizando o Maven, para tanto:
+- Vamos começar rodando o HelloWorld do JavaFX com FXML utilizando o Maven, para tanto:
 
   - Crie um Maven Project assim:
 
