@@ -8,6 +8,10 @@
 
 - Neste semestre, já mais avançados, vamos trabalhar com o Java 11 (ou se preferir, o Java 12). O professor utilizará o OpenJDK, mas se você preferir, também pode utilizar o JDK da Oracle. No entanto, o uso do **Eclipse** é **mandatório**!
 
+- **Baixe a última versão do Java e a última versão do Eclipse!!!**
+
+  - Lembre-se de configurar o *Path* nas variáveis de ambiente
+
 - Vamos começar rodando o HelloWorld do JavaFX com FXML utilizando o Maven, para tanto:
 
   - Crie um Maven Project assim:
