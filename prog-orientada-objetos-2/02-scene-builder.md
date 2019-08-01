@@ -7,6 +7,6 @@
 #### SceneBuilder:
 
 - Faça o download do SceneBuilder em: [https://gluonhq.com](https://gluonhq.com)
-- O SceneBuilder é um editor de FXML, portanto, para utilizá-lo:
-- No Eclipse, clique com o botão direito no arquivo que você quer editar
-  - Selecione *Open with -> Other -> External Programs -> SceneBuilder*
+- O SceneBuilder é um editor de FXML, para utilizá-lo:
+  - No Eclipse, clique com o botão direito no arquivo que você quer editar e selecione:
+    - *Open with -> Other -> External Programs -> SceneBuilder*
