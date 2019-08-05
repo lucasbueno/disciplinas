@@ -14,6 +14,14 @@
 
 - Ciência é diferente de desenvolvimento tecnológico
 
+- Não é possível atingir a perfeição, mas devemos nos esforçar ao máximo para:
+
+    - Realizar um grande número de observações;
+    - Variar amplamente as condições de experimento;
+    - Tentar falsear nossa hipótese;
+    - Ser neutro;
+    Ser objetivo.
+
 - Algumas classificações das diferentes ciências:
 
   - Classificação 1:
@@ -41,6 +49,8 @@
   - Apresentação de algo reconhecidamente melhor
   - Apresentação de uma prova
 
-  #### Referências bibliográficas
+- Tarefa sobre o artigo “O que é ciência?” de Silvio Seno Chibeni.
+
+    #### Referências bibliográficas
 
 1. Raul Sidnei Wazlawick. Metodologia da Pesquisa para Ciência da Computação. Publicado pela Elsevier em 2008.
