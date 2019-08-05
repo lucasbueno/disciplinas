@@ -17,7 +17,7 @@
   - Wireframe: é um rascunho do produto final, pode ser feito a mão ou com um software (como o Balsamiq)
   - Mockup: versão mais detalhada do produto final, já feita em algum *software*, como o *Mockplus*, mas não clicável/utilizável
   - Protótipo: como o Mockup, mas clicável/utilizável
-- Para prototipação, vamos utilizar o **Mockingbot**, que possui versões gratuitas para Web, Linux, Windows, macOS, e também aplicativos para visualizar o protótipo no Android e no iOS
+- Para prototipação, vamos utilizar o  **[Mockingbot](https://mockingbot.com/)**, que possui versões gratuitas para Web, Linux, Windows, macOS, e também aplicativos para visualizar o protótipo no Android e no iOS
 
 #### Referências bibliográficas:
 
