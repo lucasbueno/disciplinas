@@ -2,7 +2,7 @@
 
 ## Anotações do professor Lucas Bueno
 
-### Última atualização: 01/08/2019
+### Última atualização: 06/08/2019
 
 #### Criando um projeto MVC em JavaFX:
 
