@@ -2,9 +2,9 @@
 
 ## Anotações do professor Lucas Bueno
 
-### Última atualização: 31/07/2019
+### Última atualização: 08/08/2019
 
-#### Introdução
+#### Ciência da computação
 
 - O que é ciência da computação? É realmente uma ciência?
 
@@ -38,16 +38,6 @@
   - Classificação 4:
     - Ciências *soft*
     - Ciências *hard*
-
-- Estilos de pesquisas comuns em ciência da computação:
-
-  - Apresentação de um produto
-    - Não é ciência, pois se não todo desenvolvedor deveria receber títulos acadêmicos
-  - Apresentação de algo diferente
-    - Uma nova forma de resolver um problema
-  - Apresentação de algo presumivelmente melhor
-  - Apresentação de algo reconhecidamente melhor
-  - Apresentação de uma prova
 
 - Tarefa sobre o artigo “O que é ciência?” de Silvio Seno Chibeni.
 
