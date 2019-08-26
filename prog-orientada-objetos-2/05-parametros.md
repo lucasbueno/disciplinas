@@ -41,18 +41,25 @@
 
 - Para adicionarmos listas nos nossos componentes:
   ```java
-  Stage stage = new Stage();
-  FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("settings.fxml"));
-  Parent root = (Parent) fxmlLoader.load();
-  stage.setScene(new Scene(root));
-  SettingsController controller = fxmlLoader.getController();
-  controller.setParametro(2);
-  stage.show();
+  private ObservableList<String> nossaLista;
+  
+  public void nossoMetodo() {
+      getNossaLista().add(nossaTxt.getText());
+  }
+  
+  private ObservableList<String> getNossaLista() {
+      if (this.nossaLista == null) {
+          this.nossaLista = FXCollections.observableArrayList();
+          nossaListView.setItems(nossaLista);
+      }
+      return this.nossaLista;
+  }
   ```
   
 - O projeto está disponível em:
 
   - https://github.com/lucasbueno/projetos-poo2/tree/master/AnchorPaneFXML
-```
+  
+- Para mais informações sobre a ListView:
 
-```
+    - https://docs.oracle.com/javafx/2/ui_controls/list-view.htm
