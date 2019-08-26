@@ -27,14 +27,32 @@
 		stage.show();
 	}
   ```
-- Para passarmos parâmetros para o controller de um FXML:
-
   
+- Para passarmos parâmetros para o controller de um FXML:
+  ```java
+  Stage stage = new Stage();
+  FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("settings.fxml"));
+  Parent root = (Parent) fxmlLoader.load();
+  stage.setScene(new Scene(root));
+  SettingsController controller = fxmlLoader.getController();
+  controller.setParametro(2);
+  stage.show();
+  ```
 
 - Para adicionarmos listas nos nossos componentes:
-
+  ```java
+  Stage stage = new Stage();
+  FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("settings.fxml"));
+  Parent root = (Parent) fxmlLoader.load();
+  stage.setScene(new Scene(root));
+  SettingsController controller = fxmlLoader.getController();
+  controller.setParametro(2);
+  stage.show();
+  ```
   
-
 - O projeto está disponível em:
 
   - https://github.com/lucasbueno/projetos-poo2/tree/master/AnchorPaneFXML
+```
+
+```
