@@ -17,7 +17,9 @@
     - Por isso o ideal é armazenar os dados em um banco relacional, mas escrever o código (que provavelmente demandará bastante manutenção) no modelo orientado a objetos
         - O que poderia ser uma grande dor de cabeça para os programadores, que precisariam ora trabalhar com um modelo, ora com outro
         - Mas felizmente existe ORM!
+  
 - Existem vários *frameworks* para utilizarmos ORM, e eles são específicos para cada linguagem, um dos mais antigos e famosos é o **Hibernate** - que é o que iremos utilizar
+
 - Mas antes disso, vamos conhecer um histórico da manipulação de bancos de dados com a linguagem de programação Java:
   - ODBC: uma API que define como um programa pode acessar um banco de dados
   - JDBC: uma API que define como um progama Java pode acessar um banco de dados
@@ -25,6 +27,7 @@
       - Para abrir uma conexão você informa o endereço, o usuário, a senha e o *driver* JDBC
   - JPA:  *Java Persistence API*, nasceu como resposta ao Hibernate, mas hoje é possível utilizar o Hibernate pela especificação JPA
       - É uma especificação, e existem várias implementações, a implementação de referência é a EclipseLink, mas utilizaremos o **Hibernate**
+  
 - E antes de ir ao código, precisamos definir qual banco de dados vamos utilizar
     - Uma das mágicas em utilizar tecnologias como o Hibernate e JPA, é que elas permitem realizar a troca dos bancos de dados de maneira rápida, fácil e transparente
     - Outra grande mágica é que não precisaremos nos preocupar com o gerenciamento dos recursos do banco de dados, como abertura e fechamento de conexões
@@ -39,6 +42,7 @@
       - normalmente cada aplicativo que roda em seu *smartphone* salva suas informações em um bancos de dados SQLite, mas também normalmente fazendo um *backup* na nuvem
       - existem mais de 1 trilhão de bancos de dados SQLite em uso no mundo
       - para navegarmos em bancos de dados feitos com o SQLite, podemos utilizar o [DB Browser for SQLite](https://sqlitebrowser.org/)
+    
 - Vamos ao código:
   
     - Crie um projeto Maven com o arquétipo “javafx-archetype-fxml” assim como descrito na aula 03
@@ -96,6 +100,44 @@
 
 	</persistence-unit>
 	</persistence>
-```
-      - Pronto, agora é só criar suas entidades com as anotações da JPA, modificar o persistence.xml de acordo com suas necessidades, e fazer a manipulação dos dados. O Hibernate se encarregará de manter o banco de dados atualizado e coerente com seu modelo orientado a objetos.
+	 ```
+	
+- Pronto, agora é só criar suas entidades com as anotações da JPA, modificar o persistence.xml de acordo com suas necessidades, e fazer a manipulação dos dados. O Hibernate se encarregará de manter o banco de dados atualizado e coerente com seu modelo orientado a objetos.
+
+    ```java
+    package com.lucasbueno.orm;
+    
+import java.util.List;
+    
+import javax.persistence.EntityManager;
+    import javax.persistence.EntityManagerFactory;
+    import javax.persistence.Persistence;
+    
+import com.lucasbueno.orm.model.Folder;
+    
+public class Main {
+    	private static EntityManagerFactory entityManagerFactory;
+    public static void main(String[] args) {
+    
+    	// adiciono uma pasta
+    	entityManagerFactory = Persistence.createEntityManagerFactory("com.lucasbueno.orm");
+    	EntityManager entityManager = entityManagerFactory.createEntityManager();
+    	entityManager.getTransaction().begin();
+    	entityManager.persist(new Folder("Teste"));
+    	entityManager.getTransaction().commit();
+    	entityManager.close();
+    
+    	// recupero as pastas
+    	entityManager = entityManagerFactory.createEntityManager();
+    	entityManager.getTransaction().begin();
+    	List<Folder> result = entityManager.createQuery("from Folder", Folder.class).getResultList();
+    	for (Folder folder : result)
+    		System.out.println("Folder (" + folder.getName() + ")");
+    	entityManager.getTransaction().commit();
+    	entityManager.close();
+    
+    	entityManagerFactory.close();
+    }
+    }
+    ```
     
