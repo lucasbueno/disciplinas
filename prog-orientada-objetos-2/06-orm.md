@@ -61,7 +61,7 @@
               <version>3.28.0</version>
           </dependency>
       ```
-     - E também o "dialeto SQL" do banco>  
+     - E também o "dialeto SQL" do banco>:
     ```xml
     	  <dependency>
 			  <groupId>com.github.gwenn</groupId>
