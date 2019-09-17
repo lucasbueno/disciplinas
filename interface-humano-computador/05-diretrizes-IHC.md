@@ -11,13 +11,13 @@
     - Ações semelhantes devem funcionar de maneira semelhante
     - Mas o uso de padrões por si só não garante a qualidade do produto final
 - Exemplos de *guidelines*:
-    - Windows: https://docs.microsoft.com/en-us/windows/win32/uxguide/guidelines
+    - Windows (Fileira 3): https://docs.microsoft.com/en-us/windows/win32/uxguide/guidelines
     - GNOME: https://developer.gnome.org/hig/stable/
-    - KDE: https://hig.kde.org/
-    - ElementaryOS: https://elementary.io/en/docs/human-interface-guidelines#human-interface-guidelines
+    - KDE (Fileira 5): https://hig.kde.org/
+    - ElementaryOS (Fileira 2): https://elementary.io/en/docs/human-interface-guidelines#human-interface-guidelines
     - macOS: https://developer.apple.com/design/human-interface-guidelines/macos/overview/themes/
-    - iOS: https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/
-    - Android: https://developer.android.com/design
+    - iOS (Fileira 1): https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/
+    - Android (Fileira 4): https://developer.android.com/design
 
 #### Referências bibliográficas:
 

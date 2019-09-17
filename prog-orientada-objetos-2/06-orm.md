@@ -39,3 +39,63 @@
       - normalmente cada aplicativo que roda em seu *smartphone* salva suas informações em um bancos de dados SQLite, mas também normalmente fazendo um *backup* na nuvem
       - existem mais de 1 trilhão de bancos de dados SQLite em uso no mundo
       - para navegarmos em bancos de dados feitos com o SQLite, podemos utilizar o [DB Browser for SQLite](https://sqlitebrowser.org/)
+- Vamos ao código:
+  
+    - Crie um projeto Maven com o arquétipo “javafx-archetype-fxml” assim como descrito na aula 03
+    
+    - Adicione a última versão estável do Hibernate como dependêndia no pom.xml:
+    
+    ```xml
+      <dependency>
+        <groupId>org.hibernate</groupId>
+          <artifactId>hibernate-core</artifactId>
+          <version>5.4.4.Final</version>
+      </dependency>
+    ```
+    
+      - Também adicione a última versão estável do JDBC do SQLite, ou do BD que vc preferir:
+      ```xml
+          <dependency>
+              <groupId>org.xerial</groupId>
+              <artifactId>sqlite-jdbc</artifactId>
+              <version>3.28.0</version>
+          </dependency>
+      ```
+     - E também o "dialeto SQL" do banco>  
+    ```xml
+    	  <dependency>
+			  <groupId>com.github.gwenn</groupId>
+			  <artifactId>sqlite-dialect</artifactId>
+			  <version>0.1.0</version>
+		  </dependency>
+    ```
+    
+      - Dentro da pasta resources, crie a pasta “META-INF” e dentro dela o arquivo de configuração do Hibernate (persistence.xml):
+     ```xml
+    <persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0">
+
+	<persistence-unit name="com.lucasbueno.orm">
+		<description>
+            Persistence unit for the ORM class.
+        </description>
+
+		<class>com.lucasbueno.orm.model.Folder</class>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC" />
+			<property name="dialect" value="org.hibernate.dialect.SQLiteDialect" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlite:db.sqlite" />
+			<property name="javax.persistence.jdbc.user" value="" />
+			<property name="javax.persistence.jdbc.password" value="" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="create" />
+		</properties>
+
+	</persistence-unit>
+</persistence>
+     ```
+      - Pronto, agora é só criar suas entidades com as anotações da JPA, modificar o persistence.xml de acordo com suas necessidades, e fazer a manipulação dos dados. O Hibernate se encarregará de manter o banco de dados atualizado e coerente com seu modelo orientado a objetos.
+    
