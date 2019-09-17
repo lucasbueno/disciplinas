@@ -95,7 +95,7 @@
 		</properties>
 
 	</persistence-unit>
-</persistence>
-     ```
+	</persistence>
+```
       - Pronto, agora é só criar suas entidades com as anotações da JPA, modificar o persistence.xml de acordo com suas necessidades, e fazer a manipulação dos dados. O Hibernate se encarregará de manter o banco de dados atualizado e coerente com seu modelo orientado a objetos.
     
