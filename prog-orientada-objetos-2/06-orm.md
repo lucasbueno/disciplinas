@@ -104,40 +104,16 @@
 	
 - Pronto, agora é só criar suas entidades com as anotações da JPA, modificar o persistence.xml de acordo com suas necessidades, e fazer a manipulação dos dados. O Hibernate se encarregará de manter o banco de dados atualizado e coerente com seu modelo orientado a objetos.
 
-    ```java
-    package com.lucasbueno.orm;
-    
-import java.util.List;
-    
-import javax.persistence.EntityManager;
-    import javax.persistence.EntityManagerFactory;
-    import javax.persistence.Persistence;
-    
-import com.lucasbueno.orm.model.Folder;
-    
-public class Main {
-    	private static EntityManagerFactory entityManagerFactory;
-    public static void main(String[] args) {
-    
-    	// adiciono uma pasta
-    	entityManagerFactory = Persistence.createEntityManagerFactory("com.lucasbueno.orm");
-    	EntityManager entityManager = entityManagerFactory.createEntityManager();
-    	entityManager.getTransaction().begin();
-    	entityManager.persist(new Folder("Teste"));
-    	entityManager.getTransaction().commit();
-    	entityManager.close();
-    
-    	// recupero as pastas
-    	entityManager = entityManagerFactory.createEntityManager();
-    	entityManager.getTransaction().begin();
-    	List<Folder> result = entityManager.createQuery("from Folder", Folder.class).getResultList();
-    	for (Folder folder : result)
-    		System.out.println("Folder (" + folder.getName() + ")");
-    	entityManager.getTransaction().commit();
-    	entityManager.close();
-    
-    	entityManagerFactory.close();
-    }
-    }
-    ```
-    
+    - A anotação Entity indica que a classe será uma tabela
+    - A anotação Id indica o atributo que é chave-primária da tabela
+    - As anotações ManyToMany, OneToOne, OneToMany, ManyToOne indicam o tipo de relacionamento representado por uma lista, por exemplo
+    - A anotação Column serve para personalizarmos o nome da coluna em questão
+    - A anotação Table serve para personalizarmos o nome de uma tabela
+    - A anotação Temporal serve para indicarmos como ocorrerá a representação de datas no banco de dados
+    - Mais anotações em:
+        - https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#annotations-jpa-table
+
+    ### Atenção:
+
+    - Sempre crie um construtor vazio para as suas entidades
+    - Sempre crie os métodos equals() e hashcode() (utilizando o Eclipse)
