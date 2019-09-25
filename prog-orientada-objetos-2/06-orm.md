@@ -117,3 +117,7 @@
 
     - Sempre crie um construtor vazio para as suas entidades
     - Sempre crie os métodos equals() e hashcode() (utilizando o Eclipse)
+    
+- Bom tutorial:
+
+    - https://www.devmedia.com.br/definindo-entity-manager-na-java-persistence-api/28271
