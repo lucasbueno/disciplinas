@@ -45,8 +45,9 @@ Algumas funções úteis do R para cálculo de estatísticas descritivas:
 - mean(dataset$nomeColuna, trim=.1) #média truncada removendo 10% em ambos os lados
 - sort(dataset$nomeColuna) # ordena todos os valores da coluna
 - median(dataset$nomeColuna) # mediana de todos os valores da coluna
-- modeOf(dataset$nomeColuna) # moda de todos os valores da coluna
-- maxFreq(dataset$nomeColuna) # frequência da moda de todos os valores da coluna
+- Os seguintes é necessário instalar o pacote lsr:
+    - modeOf(dataset$nomeColuna) # moda de todos os valores da coluna
+    - maxFreq(dataset$nomeColuna) # frequência da moda de todos os valores da coluna
 
 *Dataset* das minhas notas em: https://drive.google.com/file/d/1AHWuPSVFC7qJA58cwqZB700xwPpKE53L/view?usp=sharing
 
