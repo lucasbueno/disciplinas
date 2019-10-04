@@ -24,21 +24,21 @@
 
     - E em seguida *From text (readr)*
     - *Na primeira vez que você for utilizar esta função o RStudio irá instalar os pacotes necessários, pode demorar
+    
+- *Dataset* das minhas notas em: https://drive.google.com/file/d/1AHWuPSVFC7qJA58cwqZB700xwPpKE53L/view?usp=sharing
 
 #### Estatística descritiva:
 
-O ramo da estatística que visa descrever um conjunto de dados, resumindo-os em um pequeno número de indicadores facilmente entendíveis. Alguns desses indicadores são classificados como de “medidas de tendência central”:
+O ramo da estatística que visa descrever um conjunto de dados, resumindo-os em um pequeno número de indicadores facilmente entendíveis. Alguns desses indicadores são classificados como de **medidas de tendência central**:
 
 - Média:  (X1+X2+…+Xn)/n, ou: ![1570124313406](01-introducao (copy).assets/1570124313406.png)
 - Mediana: o valor central
 - Moda: o valor que ocorre com mais frequência
 
-Discussão:
-
 - Média truncada:
-- Valores nominais:
+- E com os valores nominais?
 
-Algumas funções úteis do R para cálculo de estatísticas descritivas:
+Algumas funções úteis do R para cálculo de medidas de tendência central:
 
 - sum(dataset$nomeColuna) # soma de todos os valores da coluna
 - mean(dataset$nomeColuna) # média de todos os valores da coluna
@@ -49,7 +49,34 @@ Algumas funções úteis do R para cálculo de estatísticas descritivas:
     - modeOf(dataset$nomeColuna) # moda de todos os valores da coluna
     - maxFreq(dataset$nomeColuna) # frequência da moda de todos os valores da coluna
 
-*Dataset* das minhas notas em: https://drive.google.com/file/d/1AHWuPSVFC7qJA58cwqZB700xwPpKE53L/view?usp=sharing
+------
+
+Outros indicadores são classificados como de **medidas variação**. Os usamos como indicativo do quão “espalhados” estão os dados ou do quão “longe” eles estão da média, por exemplo:
+
+- Mínimo: o menor valor
+- Máximo: o maior valor
+- Amplitude: o maior valor subtraído do menor valor
+- Amplitude interquartil: o maior valor subtraído do menor valor considerando apenas o intervalo entre o 1º e o 3º quartis
+- Desvio padrão da média: a média das variações das instâncias em relação a média das instâncias
+
+Algumas funções úteis do R para cálculo de medidas de variação:
+
+- min(dataset$Coluna)
+- max(dataset$Coluna)
+- range(dataset$Coluna) # amplitude
+- IQR(dataset$Coluna) # amplitude interquartil
+
+Um script para calcular o desvio padrão da média:
+```R
+media = mean(notas$Nota)
+desvioAbsolutoMedia = abs(notas$Nota - media)
+desvioPadraoMedia = mean(desvioAbsolutoMedia)
+print(desvioPadraoMedia)
+```
+
+
+
+
 
 #### Referências bibliográficas:
 
