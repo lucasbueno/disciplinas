@@ -35,7 +35,7 @@ O ramo da estatística que visa descrever um conjunto de dados, resumindo-os em 
 - Mediana: o valor central
 - Moda: o valor que ocorre com mais frequência
 
-- Média truncada:
+- Média truncada: 
 - E com os valores nominais?
 
 Algumas funções úteis do R para cálculo de medidas de tendência central:

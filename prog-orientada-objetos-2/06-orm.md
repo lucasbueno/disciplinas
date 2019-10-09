@@ -112,9 +112,18 @@
     - A anotação Temporal serve para indicarmos como ocorrerá a representação de datas no banco de dados
     - Mais anotações em:
         - https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#annotations-jpa-table
-
+- Os métodos para manipulação dos dados no banco são:
+        - persist() para inserir um objeto no banco;
+    - remove() para deletar um objeto do banco;
+        - find() para pesquisar um único objeto no banco;
+        - createQuery() para realizar uma consulta mais detalhada no banco;
+    - Utilizamos sempre EntityManagers para trabalhar com os dados, esta classe gerencia um conjunto de entidades que foi mapeada do banco para a memória:
+        - Quando precisamos alterar as informações do banco, devemos iniciar uma transação;
+        - Para alterarmos as informações, também é necessário que as entidades estajam sendo gerenciadas pelo entity manager que estamos trabalhando no momento;
+        - Depois de terminar as alterações e manipulações no banco, faça commit e feche o EntityManager.
+    
     ### Atenção:
-
+    
     - Sempre crie um construtor vazio para as suas entidades
     - Sempre crie os métodos equals() e hashcode() (utilizando o Eclipse)
     
