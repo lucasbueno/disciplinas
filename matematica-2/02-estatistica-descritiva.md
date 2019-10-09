@@ -57,7 +57,7 @@ Outros indicadores são classificados como de **medidas variação**. Os usamos 
 - Máximo: o maior valor
 - Amplitude: o maior valor subtraído do menor valor
 - Amplitude interquartil: o maior valor subtraído do menor valor considerando apenas o intervalo entre o 1º e o 3º quartis
-- Desvio padrão da média: a média das variações das instâncias em relação a média das instâncias
+- **Desvio absoluto da média**: a média das variações das instâncias em relação a média das instâncias
 
 Algumas funções úteis do R para cálculo de medidas de variação:
 
@@ -66,7 +66,7 @@ Algumas funções úteis do R para cálculo de medidas de variação:
 - range(dataset$Coluna) # amplitude
 - IQR(dataset$Coluna) # amplitude interquartil
 
-Um script para calcular o desvio padrão da média:
+Um script para calcular o desvio absoluto da média:
 ```R
 media = mean(notas$Nota)
 desvioAbsolutoMedia = abs(notas$Nota - media)
