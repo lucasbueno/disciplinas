@@ -32,6 +32,17 @@ descX = "Descrição do eixo X"
 descY = "Descrição do eixo Y"
 plot(x = dados, main = titulo, sub = legenda, xlab = descX, ylab = descY)
 ```
+ - Diagrama de caixa: é bastante interessante para identificarmos *outliers*
+```R
+summary(notas$Nota)
+boxplot(notas$Nota)
+```
+ - Gráfico de barras: 
+```R
+notas2 = tabulate(notas$Nota)
+barplot(notas2)
+```
+
 
 #### Referências bibliográficas:
 
