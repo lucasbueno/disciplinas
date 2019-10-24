@@ -86,6 +86,40 @@ variancia = mean(desvioQuadradoMedia)
 print(desvioPadraoMedia)
 ```
 
+#### Assimetria (ou skewness):
+ - Uma assimetria negativa indica que a média é menor que a mediana, assim com que a distribuição tem uma cauda mais a esquerda
+
+ - Uma assimetria positiva indica que a média é maior que a mediana, assim com que a distribuição tem uma cauda mais a direita
+
+ - Existem várias maneiras de calcular a assimetria, uma bem simples é:
+
+    ![Resultado de imagem para skewness formula](02-estatistica-descritiva.assets/skewness-in-statistics-definition-formula-and-examples_thumbnail_126941.jpg)
+ - ![1571946647557](02-estatistica-descritiva.assets/1571946647557.png)
+ - Um script para calcular um coeficiente de assimetria:
+```R
+# primeiramente instale o pacote e1071, depois:
+library(e1071)
+assimetria = skewness(notas$Nota, na.rm = TRUE, type=1)
+print(assimetria)
+```
+#### Curtose:
+ - Uma curtose negativa indica uma distribuição mais "achatada"
+
+ - Uma curtose positiva indica uma distribuição menos "achatada"
+
+ - Existem várias maneiras de calcular a curtose, uma bem simples é:
+  ![Resultado de imagem para kurtosis formula](02-estatistica-descritiva.assets/DC-2195V1.gif)
+
+  ![1571947105751](02-estatistica-descritiva.assets/1571947105751.png)
+
+ - Um script para calcular um coeficiente de curtose:
+```R
+# primeiramente instale o pacote e1071, depois:
+library(e1071)
+curtose = kurtosis(notas$Nota, na.rm = TRUE)
+print(curtose)
+```
+
 #### Referências bibliográficas:
 
 1. Bruno Fontana da Silva, Jean Diniz e Matias Américo Bortoluzzi. Minicurso de Estatística Básica: Introdução ao Software R. http://www.uft.edu.br/engambiental/prof/catalunha/arquivos/r/r_bruno.pdf

@@ -30,7 +30,7 @@ titulo = "Título do gráfico"
 legenda = "Legenda do gráfico"
 descX = "Descrição do eixo X"
 descY = "Descrição do eixo Y"
-plot(x = dados, main = titulo, sub = legenda, xlab = descX, ylab = descY)
+hist(x = dados, main = titulo, sub = legenda, xlab = descX, ylab = descY)
 ```
  - Diagrama de caixa: é bastante interessante para identificarmos *outliers*
 ```R
