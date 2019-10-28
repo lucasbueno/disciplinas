@@ -2,6 +2,6 @@
 
 ## Anotações do professor Lucas Bueno
 
-### Última atualização: 24/10/2019
+### Última atualização: 27/10/2019
 
 #### Threads e concorrência:
