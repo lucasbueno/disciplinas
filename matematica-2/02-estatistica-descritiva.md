@@ -108,7 +108,7 @@ print(assimetria)
  - Uma curtose positiva indica uma distribuição menos "achatada"
 
  - Existem várias maneiras de calcular a curtose, uma bem simples é:
-  ![Resultado de imagem para kurtosis formula](02-estatistica-descritiva.assets/DC-2195V1.gif)
+    ![Resultado de imagem para kurtosis formula](02-estatistica-descritiva.assets/DC-2195V1.gif)
 
   ![1571947105751](02-estatistica-descritiva.assets/1571947105751.png)
 
@@ -119,6 +119,15 @@ library(e1071)
 curtose = kurtosis(notas$Nota, na.rm = TRUE)
 print(curtose)
 ```
+#### Escore padronizado ou Escore-z:
+ - A quantos desvios padrões da média uma observação está:
+    ![image-20191102151026940](02-estatistica-descritiva.assets/image-20191102151026940.png)
+ - Como estamos calculando um score relativo a média e ao desvio-padrão de toda a população, podemos utilizar scores padronizados para comparar medições de fenômenos diferentes!
+
+#### Coeficiente de correlação:
+ - Quanto um aumento em uma variável implicará no aumento da outra variável:
+![image-20191102153246023](02-estatistica-descritiva.assets/image-20191102153246023.png)
+
 
 #### Referências bibliográficas:
 
