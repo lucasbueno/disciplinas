@@ -132,5 +132,4 @@ print(curtose)
 #### Referências bibliográficas:
 
 1. Bruno Fontana da Silva, Jean Diniz e Matias Américo Bortoluzzi. Minicurso de Estatística Básica: Introdução ao Software R. http://www.uft.edu.br/engambiental/prof/catalunha/arquivos/r/r_bruno.pdf
-2. Raul Enrique Cuore. As diferenças históricas entre probabilidade e estatística e sua abordagem no ensino superior.
-3. Danielle Navarro. Learning statistics with R. http://compcogscisydney.org/learning-statistics-with-r/
+2. Danielle Navarro. Learning statistics with R. http://compcogscisydney.org/learning-statistics-with-r/
