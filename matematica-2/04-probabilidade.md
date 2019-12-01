@@ -21,15 +21,30 @@
 
 #### Regras básicas:
  - Regra do E: um evento independente não afeta a probabilidade de outro evento independente. Portanto, a probabilidade dos dois ocorrerem é a probabilidade do primeiro ocorrer multiplicada pela probabilidade do segundo ocorrer;
- - Regra do ou: a probabilidade de 1 ou outro evento ocorrer, é o somatório da probabilidade de cada evento ocorrer.
+ - Regra do OU: a probabilidade de 1 ou outro evento ocorrer, é o somatório da probabilidade de cada evento ocorrer.
 
-#### Exercícios:
+##### Exercícios:
  - No lançamento de dois dados perfeitos, qual a probabilidade de que a soma dos resultados obtidos seja igual a 6?
  - Em uma urna existem bolas enumeradas de 1 a 15. Qualquer uma delas possui a mesma chance de ser retirada. Determine a probabilidade de se retirar uma bola com número nas seguintes condições: 
      - par; 
      - primo; 
      - par ou primo; 
      - par e primo.
+
+#### Distribuição binomial:
+ - Uma distribuição estatística é uma função que define uma curva de probabilidades;
+ - A binomial pode ser usada para calcular a probabilida de que ocorram exatamente um número X de sucessos em N lançamentos aleatórios e independentes, desde que o experimento tenha apenas dois resultados possíveis (sucesso ou fracasso) e que a probabilidade de sucesso se mantenha constante em todos os experimentos;
+ - No R, podemos utilizar as funções "dbinom()", “pbinom()”, “rbinom()”.
+
+#### Distribuição normal:
+ - Ao contrário da binomial, pode ser utilizada para dados contínuos (como a temperatura);
+ - Como já vimos, ela é definida pela média e pelo desvio padrão e:
+     - Cerca de 68% dos dados estão entre 1 desvio padrão da média, 95% entre 2 desvios padrões, e 99.7% entre 3 desvios padrões;
+- Mas o que acontece se alterarmos a média? E se alterarmos o desvio padrão?
+- Muitos experimentos tem o formato de uma distribuição normal e, para estes casos, fica fácil calcular a probabilidade de que uma condição ocorra. Mas mesmo para os experimentos que não possuem o formato da distribuição normal, o teorema central do limite diz que:
+     - A distribuição da média dos experimentos converge para uma distribuição normal na medida em que o tamanho das amostras aumenta. Podemos visualizar isso com o exemplo ilustrado aqui: http://www.portalaction.com.br/probabilidades/convergencia-de-variaveis-aleatorias
+- No R, podemos utilizar as funções "dnorm()", “pnorm()”, “rnorm()”;
+- Site para plotar distribuições normais: https://www.desmos.com/calculator/0x3rpqtgrx
 
 
 #### Referências bibliográficas:
