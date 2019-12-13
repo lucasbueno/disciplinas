@@ -39,12 +39,13 @@ Neste tópicos buscamos demonstrar de maneira clara e objetiva o que é um compu
 
 Propomos realizar discussões com os alunos sobre os seguintes tópicos:
 
-- Por quanto tempo as informações ficam públicas na internet?
 - O que é a internet?
 - Como funciona a internet?
+- Por quanto tempo as informações ficam públicas na internet?
+- Por quê disponibilizamos nossas informações na internet?
 - Quem teria interesse em pesquisar nossas informações?
 - Quais os perigos e possíveis consequências do compartilhamento de informações na internet?
-- Sugestão de atividade: em duplas, pedir para que cada aluno pesquise e anote a maior quantidade possível de informações que encontrar sobre o outro na internet. Em seguida, pedir para que cada aluno apresente o colega para a turma.
+- Sugestão de atividade: em duplas, pedir para que cada aluno pesquise e anote a maior quantidade possível de informações que encontrar sobre o outro na internet.
 
 #### Ferramentas de produtividade:
 
