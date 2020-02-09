@@ -14,6 +14,7 @@
         - Com um exemplo, vamos ver como funciona no Java
     - Um sistema orientado a objetos é um grande conjunto de classes que se comunicam (através de chamadas de métodos e passagem de parâmetros), sendo que cada classe tem um único e bem definido propósito
 - Encapsulamento
+    - A ignorância é uma benção
     - Um dos conceitos mais importantes da orientação a objetos
     - Nos permite tornar atributos e métodos privados para c**ontrolar e garantir a lógica de funcionamento de uma classe**
     - É extremamente importante quando trabalhamos em equipe
