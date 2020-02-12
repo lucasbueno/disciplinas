@@ -2,7 +2,7 @@
 
 ## Anotações do professor Lucas Bueno
 
-#### Última atualização: 14/01/2020
+#### Última atualização: 14/01/2020 http://bit.ly/2ONzREY
 
 ### Configuração do ambiente de trabalho
 
@@ -21,3 +21,4 @@
 ### Referências
 
 - Design Patterns com Java: projeto orientado a objetos guiado por padrões. Eduardo Guerra. Casa do código. 2018.
+
