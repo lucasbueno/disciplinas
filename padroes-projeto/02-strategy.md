@@ -13,6 +13,8 @@
 - Outro exemplo: o preço dos estacionamentos de veículos, em geral, varia de acordo com o tipo do veículo, o tipo de contrato e o tempo de permanência do veículo. Como desenvolver um sistema para controle de estacionamentos genérico, que seja adaptável para todos que o queiram comprar?
 - E o último exemplo: o cálculo do imposto de renda, além de sofrer constantes alterações, depende da faixa salarial em que a renda da pessoa se enquadra, do tipo de cálculo escolhido (simplificado ou não), dos diversos ganhos, etc. Como desenvolver o sistema para cálculo do imposto de renda de forma que ele seja facilmente adaptável no futuro?
 
+![https://robsoncastilho.files.wordpress.com/2011/04/strategy.gif?w=616](02-strategy.assets/strategy.gif)
+
 ### Referências
 
 - Design Patterns com Java: projeto orientado a objetos guiado por padrões. Eduardo Guerra. Casa do código. 2018.
