@@ -33,3 +33,7 @@
     - Testes de integração
     - Testes de sistema
     - Testes de aceitação
+- Utilizaremos o JUnit Jupiter na versão mais recente do Java (Atualmente 13)
+    - Atenção: estamos na “crista da onda”, então a maior parte dos tutoriais disponíveis na internet e em livros é para as versões mais antigas e incompatíveis com a atual
+    - Portanto, recorram sempre à documentação:
+        - https://junit.org/junit5/docs/current/user-guide/
