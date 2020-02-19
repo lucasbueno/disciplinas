@@ -18,6 +18,8 @@
     - Um dos conceitos mais importantes da orientação a objetos
     - Nos permite tornar atributos e métodos privados para **controlar e garantir a lógica de funcionamento de uma classe**
     - É extremamente importante quando trabalhamos em equipe
+    - Para iniciar atributos privados, devemos utilizar os métodos construtores
+    - Para alterar e recuperar atributos privados, devemos utilizar métodos getters e setters
 - Entrada de dados:
 ```java
 import java.util.Scanner;
