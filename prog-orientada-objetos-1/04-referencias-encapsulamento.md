@@ -16,7 +16,7 @@
 - Encapsulamento
     - A ignorância é uma benção
     - Um dos conceitos mais importantes da orientação a objetos
-    - Nos permite tornar atributos e métodos privados para c**ontrolar e garantir a lógica de funcionamento de uma classe**
+    - Nos permite tornar atributos e métodos privados para **controlar e garantir a lógica de funcionamento de uma classe**
     - É extremamente importante quando trabalhamos em equipe
 - Entrada de dados:
 ```java

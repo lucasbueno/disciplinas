@@ -26,7 +26,7 @@
     - Domínio de saída
     - Caso de teste: entrada -> saída
     - Teste funcional (especificação)
-    - Este estrutural (código)
+    - Teste estrutural (código)
     - Testes baseados em defeitos comuns
 - Tipos de testes:
     - Testes de unidade
