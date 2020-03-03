@@ -30,7 +30,7 @@
     - @AfterEach: o método anotado será executado depois de cada teste unitário
     - @BeforeAll: o método anotado será executado antes de todos os testes
     - @AfterAll: o método anotado será executado depois de todos os testes
-    - @Disable: o método ou a classe anotada não será executada na execução dos testes 
+    - @Disabled: o método ou a classe anotada não será executada na execução dos testes 
     - @Timeout: o teste falhará se a execução ultrapassar o tempo informado
     
 - Assumptions: métodos úteis para rodar testes apenas se alguma condição for verdadeira
