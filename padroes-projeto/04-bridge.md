@@ -12,11 +12,11 @@
 - É uma alternativa para evitar o crescimento exponencial de subclasses sem utilizar heranças múltiplas
 
 - Problema:
-![Bridge pattern problem](03-null-object-hook-method (copy).assets/problem.png)
+![Bridge pattern problem](04-bridge.assets/problem.png)
 
 - Solução:
 
-![Solution suggested by the Bridge pattern](03-null-object-hook-method (copy).assets/solution-en.png)
+![Solution suggested by the Bridge pattern](04-bridge.assets/solution-en.png)
 
 #### Desafio:
 
