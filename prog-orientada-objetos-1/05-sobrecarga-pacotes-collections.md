@@ -30,7 +30,7 @@ public class Teste {
 #### Pacotes:
 
  - Pacotes fazem parte da assinatura de uma classe
-     	
+    
      - Eles possibilitam a existência de duas classes com o mesmo nome, por exemplo
         - E é claro, auxiliam na organização do código
         - O padrão é utilizar o website da organização "ao contrário", como: br.com.lucasbueno 
