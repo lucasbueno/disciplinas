@@ -6,7 +6,7 @@
 
 #### O padrão Composite
 - O padrão Composite possui o objetivo de permitir que a mesma abstração possa ser utilizada para uma instância simples e para seu conjunto
-- ![image-20200401210422037](05-state-observer (copy).assets/image-20200401210422037.png)
+- ![image-20200401210422037](06-composite.assets/image-20200401210422037.png)
 
 ### Referências
 
