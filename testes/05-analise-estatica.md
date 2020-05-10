@@ -7,7 +7,7 @@
 ### Analisadores estáticos de código
 
 - Na disciplina de testes, dizemos que temos testes de caixa branca e testes de caixa preta;
-    - Nos testes de **caixa branca** nós temos **acesso** ao **código-fonte** do sistema para criar os testes;]
+    - Nos testes de **caixa branca** nós temos **acesso** ao **código-fonte** do sistema para criar os testes;
     - já nos testes de **caixa preta** não.
 - Da mesma maneira, também dizemos que temos testes estáticos e testes dinâmicos;
     - Os **testes dinâmicos** acontecem durante a execução do programa;
