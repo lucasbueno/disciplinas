@@ -21,7 +21,7 @@
     - Tenho certeza que vocês já a usaram, mas sem querer
     - Também tenho certeza que ficaram muito chateados por não terem entendido o que aconteceu
     - Quando executamos o EclEmma, nos deparamos com uma tela semelhante a esta:
-	![https://www.eclemma.org/images/screen.png](06-analise-dinamica.assets/screen.png)
+	![https://www.eclemma.org/images/screen.png](../../../screen.png)
     - O significado disso tudo é que as linhas em verde foram cobertas, e as em vermelho não, além das estatísticas de coibertura de cada classe na aba “Coverage”
 - Sendo assim, a tarefa desta ferramenta será a seguinte:
     - Estudar o guia do usuário do EclEmma disponível em: https://www.eclemma.org/userdoc/index.html
