@@ -15,7 +15,6 @@
 #### Flyweight pattern:
 - Utilizaremos uma factory para reutilizar instâncias de objetos imutáveis que aparecerão várias vezes durante a execução da aplicação
 - Devemos prestar muita atenção para deixar imutáveis os objetos que serão reutilizados!
-- ![image-20200711193508865](11-facade-flyweight.assets/image-20200711193508865.png)
 
 ### Referências
 
