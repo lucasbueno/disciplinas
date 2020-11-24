@@ -2,7 +2,7 @@
 
 ## Anotações do professor Lucas Bueno
 
-### Última atualização: 09/11/2020
+### Última atualização: 24/11/2020
 
 #### Ciência da computação
 
