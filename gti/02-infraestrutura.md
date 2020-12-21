@@ -18,7 +18,7 @@
 - Como processaremos as informações?
     - Em tempo real?
     - Em lotes?
-- Contratremos um serviço de computação em nuvem?
+- Contrataremos um serviço de computação em nuvem?
 - Utilizaremos virtualização?
 - Como planejaremos a capacidade?
 - Como planejaremos a expansão?
