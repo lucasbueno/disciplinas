@@ -1,5 +1,5 @@
 # Disciplinas
-As anotações de aulas do professor estão no formato Markdown (arquivos com extensão *.md*), que é uma linguagem de marcação simples e leve. A título de curiosidade, o HTML também é uma linguagem de marcação.
+Minhas anotações de aula estão no formato Markdown (arquivos com extensão *.md*), que é uma linguagem de marcação simples e leve. A título de curiosidade, o HTML também é uma linguagem de marcação.
 
 Com o Markdown, escrevemos o "código-fonte" do nosso texto, e então podemos "compilá-lo" para vários formatos comuns, como *.pdf*, *.docx*, ou mesmo *.html*, e utilizando o tema de cores que desejarmos. 
 
