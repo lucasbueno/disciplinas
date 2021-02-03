@@ -25,6 +25,18 @@
    - As **vulnerabilidades de _hardware_** são aquelas relacionadas aos equipamentos, vistos de modo individual;
    - As **vulnerabilidades de _software_** são aquelas relacionadas às falhas de desenvolvimento e implantação dos aplicativos, sistemas operacionais e protocolos de comunicação;
    - As **vulnerabilidades humanas** são aquelas decorrentes da ação ou omissão dos seres humanos.
-
+ - Já os **princípios** da SI são conceitos gerais que orientam a atividade de segurança. São eles:
+   - Confidencialidade: estabelece que somente pessoas previamente autorizadas tenham conhecimento do conteúdo da informação;
+   - Integridade: estabelece que a informação só pode sofrer reduções, acréscimos ou atualizações por pessoas previamente autorizadas, o que mantém suas características originais e respeita seu ciclo de vida;
+   - Disponibilidade: estabelece que a informação deve estar sempre acessível às pessoas previamente autorizadas, no momento em que necessitam utilizá-la;
+   - Autenticidade: estabelece que as informações, transações e comunicações devem ter uma origem comprovada, autores e/ ou operadores identificados, e não terem sido alvo de alterações imprevistas;
+   - Irretratabilidade: estabelece que pessoas identificadas e autenticadas em um sistema de informações não possam repudiar terem criado ou alterado dados contidos em informações, transações ou comunicações;
+ - Enquanto os **problemas** enfrentandos pela SI podem ser classificados em:
+   - _Malwares_ (_software_ malicioso): programa de computador que se aproveitam de falhas de outros programas e que tem por objetivo provocar a perda de informações, utilizar indevidamente informações ou controlar remotamente um computador. Os principais tipos de _malwares_ são:
+     - vírus: infectam um sistema e espalham cópias deles mesmos em outros programas/arquivos;
+     - cavalos de troia (_trojans_): programas aparentemente seguros, mas que abrem uma porta de entrada para que seu computador possa ser controlado remotamente;
+     - _spywares_: programas aparentemente seguros, mas com a inteção de coletar informações do usuário e enviá-las para um servidor;
+     - _ransonwares_: programa que visa o sequestro de dados dos usuários, i.e., bloqueia o acesso aos dados e pede uma quantia em $$ para devolvê-los (como o famoso WannaCry);
+     - _worms_: programas que não exigem a intervenção do usuário, principalmente por infectarem sistemas operacionais ou protocolos de rede. Sendo assim, eles se espalham muito rapidamente.
 #### Referências bibliográficas
 1. Softwares de segurança da informação / Jorge Procópio da Costa Novo. - Manaus : Centro de Educação Tecnológica do Amazonas ; Florianópolis : UFSC, 2010.
