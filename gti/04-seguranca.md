@@ -2,7 +2,7 @@
 
 ## Anotações do professor Lucas Bueno
 
-### Última atualização: 29/01/2021
+### Última atualização: 04/02/2021
 
 #### Segurança da informação: introdução
 - “Segurança não é um produto, mas um processo” -- Bruce Schneier;
@@ -38,5 +38,21 @@
      - _spywares_: programas aparentemente seguros, mas com a inteção de coletar informações do usuário e enviá-las para um servidor;
      - _ransonwares_: programa que visa o sequestro de dados dos usuários, i.e., bloqueia o acesso aos dados e pede uma quantia em $$ para devolvê-los (como o famoso WannaCry);
      - _worms_: programas que não exigem a intervenção do usuário, principalmente por infectarem sistemas operacionais ou protocolos de rede. Sendo assim, eles se espalham muito rapidamente.
+ - Enquanto exemplos de **soluções** para evitarmos as **vulnerabilidades** e atingirmos os **princípios** são:
+   - **Gerenciadores de senha**: com a enorme quantidade de serviços protegidos por senha, não é ideal que utilizemos a mesma senha em todos eles (se um serviço for hackeado e sua senha for descoberta, a dos outros também é automaticamente descoberta) e nem que as anotemos em quaisquer lugares;
+     - Ex.: Password Safe.
+   - **Gerenciadores de backups**: nos auxiliam a criar cópias de segurança, idealmente de forma automática e "desconectado" da origem dos dados;
+     - Ex.: SyncBackup.
+   - **Ferramentas de criptografia**: possibiltam criptografar os dados e garantir que os mesmos só sejam acessados através de identificação e senha;
+     - Ex.: TrueCrypt.
+   - **Ferramentas para descarte de dados**: dificultam a recuperação dos dados de um HD, pois quando excluimos um arquivo o sistema operacional apenas remove os índices que informavam que naquela região havia um arquivo;
+     - Ex.: Eraser.
+   - **Ferramentas antivírus**: previnem, detectam e removem vírus de computadores. Idealmente devem estar sempre atualizados e rodando continuamente;
+     - Ex.: Avast!.
+   - **Ferramentas de _antispyware_**: similares aos antivírus, mas com foco em _spywares_;
+     - Ex.: Spybot Search & Destroy.
+   - **_Firewalls_**: avaliam e permitem ou bloqueiam o tráfego de determinados pacotes na rede ou de/para um computador;
+     - Ex.: Comodo.
+   - O **usuário**: "Nós, os profissionais de segurança, somos muito parecidos com médicos cardiologistas." -- Gene Spafford.
 #### Referências bibliográficas
 1. Softwares de segurança da informação / Jorge Procópio da Costa Novo. - Manaus : Centro de Educação Tecnológica do Amazonas ; Florianópolis : UFSC, 2010.
