@@ -17,7 +17,7 @@
     - Por isso o ideal é armazenar os dados em um banco relacional, mas escrever o código (que provavelmente demandará bastante manutenção) no modelo orientado a objetos
         - O que poderia ser uma grande dor de cabeça para os programadores, que precisariam ora trabalhar com um modelo, ora com outro
         - Mas felizmente existe ORM!
-  
+
 - Existem vários *frameworks* para utilizarmos ORM, e eles são específicos para cada linguagem, um dos mais antigos e famosos é o **Hibernate** - que é o que iremos utilizar
 
 - Mas antes disso, vamos conhecer um histórico da manipulação de bancos de dados com a linguagem de programação Java:
@@ -27,7 +27,7 @@
       - Para abrir uma conexão você informa o endereço, o usuário, a senha e o *driver* JDBC
   - JPA:  *Java Persistence API*, nasceu como resposta ao Hibernate, mas hoje é possível utilizar o Hibernate pela especificação JPA
       - É uma especificação, e existem várias implementações, a implementação de referência é a EclipseLink, mas utilizaremos o **Hibernate**
-  
+
 - E antes de ir ao código, precisamos definir qual banco de dados vamos utilizar
     - Uma das mágicas em utilizar tecnologias como o Hibernate e JPA, é que elas permitem realizar a troca dos bancos de dados de maneira rápida, fácil e transparente
     - Outra grande mágica é que não precisaremos nos preocupar com o gerenciamento dos recursos do banco de dados, como abertura e fechamento de conexões
@@ -42,13 +42,13 @@
       - normalmente cada aplicativo que roda em seu *smartphone* salva suas informações em um bancos de dados SQLite, mas também normalmente fazendo um *backup* na nuvem
       - existem mais de 1 trilhão de bancos de dados SQLite em uso no mundo
       - para navegarmos em bancos de dados feitos com o SQLite, podemos utilizar o [DB Browser for SQLite](https://sqlitebrowser.org/)
-    
+
 - Vamos ao código:
-  
+
     - Crie um projeto Maven com o arquétipo “javafx-archetype-fxml” assim como descrito na aula 03
-    
+
     - Adicione a última versão estável do Hibernate como dependêndia no pom.xml:
-    
+
     ```xml
       <dependency>
         <groupId>org.hibernate</groupId>
@@ -56,7 +56,7 @@
           <version>5.4.4.Final</version>
       </dependency>
     ```
-    
+
       - Também adicione a última versão estável do JDBC do SQLite, ou do BD que vc preferir:
       ```xml
           <dependency>
@@ -73,7 +73,7 @@
 			  <version>0.1.0</version>
 		  </dependency>
     ```
-    
+
       - Dentro da pasta resources, crie a pasta “META-INF” e dentro dela o arquivo de configuração do Hibernate (persistence.xml):
      ```xml
     <persistence xmlns="http://java.sun.com/xml/ns/persistence"
@@ -81,12 +81,10 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
 	version="2.0">
 
-	<persistence-unit name="com.lucasbueno.orm">
+	<persistence-unit name="teste">
 		<description>
             Persistence unit for the ORM class.
         </description>
-
-		<class>com.lucasbueno.orm.model.Folder</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC" />
@@ -101,7 +99,7 @@
 	</persistence-unit>
 	</persistence>
 	 ```
-	
+
 - Pronto, agora é só criar suas entidades com as anotações da JPA, modificar o persistence.xml de acordo com suas necessidades, e fazer a manipulação dos dados. O Hibernate se encarregará de manter o banco de dados atualizado e coerente com seu modelo orientado a objetos.
 
     - A anotação Entity indica que a classe será uma tabela
@@ -121,12 +119,12 @@
         - Quando precisamos alterar as informações do banco, devemos iniciar uma transação;
         - Para alterarmos as informações, também é necessário que as entidades estajam sendo gerenciadas pelo entity manager que estamos trabalhando no momento;
         - Depois de terminar as alterações e manipulações no banco, faça commit e feche o EntityManager.
-    
+
     ### Atenção:
-    
+
     - Sempre crie um construtor vazio para as suas entidades
     - Sempre crie os métodos equals() e hashcode() (utilizando o Eclipse)
-    
+
 - Bom tutorial:
 
     - https://www.devmedia.com.br/definindo-entity-manager-na-java-persistence-api/28271
