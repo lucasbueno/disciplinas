@@ -5,11 +5,13 @@
 ### Última atualização: 09/03/2020
 
 #### Herança:
-
 - Vai nos ajudar a compartilhar códigos comuns entre as classes, evitando a repetição, ao mesmo tempo em que especializamos o que precisa ser específico
-#### Reescrita:
- - Podemos reescrever um comportamento que estendemos, se for necessário
+- Super e subclasses
+- Protected
 #### Polimorfismo:
- - Junto com o encapsulamento, é uma das bases da programação orientada a objetos
- - Permite referenciar dois objetos de classes diferentes que possuem um “ancestral” em comum
+- Junto com o encapsulamento, é uma das bases da programação orientada a objetos
+- Permite referenciar dois objetos de classes diferentes que possuem um “ancestral” em comum
+- instanceof() 
+#### Reescrita:
+- Podemos reescrever um comportamento que estendemos, se for necessário
 

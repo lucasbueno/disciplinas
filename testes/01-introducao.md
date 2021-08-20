@@ -7,7 +7,7 @@
 - Quais as diferenças entre:
 	- Validação (atender as expectivas)
 	- Verificação (atender os requisitos)
-	- Testes
+	- Testes (verificar se a saída é correta)
 - Quanto custa desenvolver um software?
 - Quanto custam os testes?
 - Por quê fazer testes?
