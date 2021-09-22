@@ -7,7 +7,7 @@
 #### Introdução e compreensão da demanda do usuário
 * O quê é a Engenharia de Software?
 	* O quê significa "engenharia"?
-	* É o conjunto de teorias, métodos e ferramentas para o desenvolvimento de software (sw.)
+		* É o conjunto de teorias, métodos e ferramentas para o desenvolvimento de software (sw.)
 	* Não existe um conjunto universal de práticas, mas existem caminhos e ideias aplicáveis a todos os projetos
 	* As despesas com eng. de sw. representam boa parte dos custos de empresas e países - desenvolver e manter sw. é caro, muito mais caro que hardware
 	* Todos os processos de desenvolvimento de sw. envolvem:
