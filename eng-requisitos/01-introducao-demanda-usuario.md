@@ -27,5 +27,3 @@
 * Exemplo da Mars Climate Orbiter (MCO): sonda espacial dos EUA com um software desenvolvido por um fornecedor que utilizou o sistema de medição britânico e não o sistema métrico universal. O erro fez com que a sonda fosse destruída ao adentrar a órbita de Marte.
 
 #### Referências bibliográficas
-
-1. Kenneth Laudon e Jane Laudon. Sistemas de Informações Gerenciais. Publicado pela Pearson Universidades em 2014.
