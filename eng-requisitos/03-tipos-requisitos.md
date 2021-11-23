@@ -11,6 +11,8 @@
 	* O *software*, depois de feito, deve atender às **necessidades do negócio** considerando o **domínio do problema** que o projeto pretende abarcar. No entanto, as **necessidades do negócio** não são requisitos do *software*
 	* Restrições: são limitações que vão impactar o projeto
 	* Regras de negócio: é como o negócio funciona, independentemente de *software*. Um exemplo: o cliente que já fez mais de 5 compras em uma loja é considerado cliente *premium*
+	* Projeto: tem caráter temporário e visa entregar um produto (*software*) ao seu final
+	* Produto: *software* que será utilizado por um ciclo de vida. Um produto pode ser abordado em diversos projetos;
 * Requisitos de transição: representam uma etapa de transição entre o estado atual de solução do problema e o estado ao qual se deseja chegar com o projeto. Exemplos: 1) os dados da planilha eletrônica atualmente utilizada devem ser migrados de forma automática para o novo sistema; 2) o sistema atual e o novo sistema permanecerão em uso paralelo por duas semanas.
 * Requisitos Funcionais: o quê o software precisa fazer
 	* Um vendedor deve conseguir registrar uma venda sem realizar o cadastro do cliente
