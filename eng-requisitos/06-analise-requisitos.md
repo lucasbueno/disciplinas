@@ -4,12 +4,12 @@
 
 ### Última atualização: 21/11/2021
 
-#### Análise e gerência de de requisitos
+#### Análise e gerência de requisitos
 * O resultado da elicitação de requisitos é o insumo para a análise de requisitos, enquanto o resultado da análise de requisitos é a especificação de requisitos (ou documento de requisitos). No entanto, estas etapas não precisam ocorrer necessariamente de forma sequencial, podendo ocorrer também de forma cíclica;
 * Nesta etapa nós queremos "fechar" o produto da engenharia de requisitos (o documento de requisitos), garantindo que o *software* que será gerado atenderá às necessidades do negócio;
 * Em geral não é difícil analisar um único requisito, isolado. No entanto, quando vamos analisar de forma conjunta todos os requisitos de um *software* a situação muda de figura;
 * É comum que leigos pensem em requisitos de uma maneira mais genérica, como "deve ser possível emitir a Nota Fiscal Eletrônica". É papel do engenheiro de requisitos desmembrar estes requisitos mais genéricos em requisitos mais específicos e que não deixem ambiguidades, como: "O vendedor deve conseguir emitir a Nota Fiscal Eletrônica" e "O cliente deve conseguir emitir a Nota Fiscal Eletrônica";
-* Para identificarmos lacunas nos requisitos e para eliminarmos requisitos redundantes e contraditórios é impotante que sigamos estas regras:
+* Para identificarmos lacunas nos requisitos e para eliminarmos requisitos redundantes e contraditórios é importante que sigamos estas regras:
     * Expressar apenas um requisito por vez;
     * Expressar os requisitos em uma sentença com verbo em voz ativa e com a identificação clara do que ou de quem será o ator responsável pela ação;
     * Se estamos falando de um CRUD (Create, Read, Update, Delete), utilizar o verbo "manter". Por exemplo: "O vendedor deve conseguir manter o cadastro do cliente".
