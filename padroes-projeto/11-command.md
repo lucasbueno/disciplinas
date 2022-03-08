@@ -18,6 +18,7 @@
     - Inserir um caractere;
     - Colar uma porção de um texto;
     - Inserir uma imagem.
+    - ![ArtStation - ROG Wallpaper Design, Pixel Jeff](pixel-jeff-clipa-s-16382316072292.gif)
 
 ### Referências
 
