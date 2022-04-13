@@ -4,6 +4,8 @@
 
 ### Última atualização: 12/04/2022
 
+Teste
+
 - Como funciona a Internet?
 - Como computadores se comunicam?
   - Computadores, provedores, roteadores, servidores (com serviços)
