@@ -2,7 +2,7 @@
 
 ## Anotações do professor Lucas Bueno
 
-### Última atualização: 08/03/2022
+### Última atualização: 12/04/2022
 
 - Como funciona a Internet?
 - Como computadores se comunicam?
