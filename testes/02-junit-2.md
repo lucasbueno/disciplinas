@@ -9,7 +9,15 @@
     - assertEquals
     - assertNotEquals
     - assertNull
-    - assertThrows
+    - assertThrows:
+      ```java
+        @Test
+        void assertThrows() {
+            assertThrows(NullPointerException.class, () -> number2.isPrime());
+        }
+       
+      ```
+      
     - Agrupamento de Assertions:
     
         ```java

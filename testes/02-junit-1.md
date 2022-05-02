@@ -8,7 +8,7 @@
     - Testes de unidade
     - Testes de integração
     - Testes de sistema
-    - Testes de aceitação
+    - Testes de verificação
 - Vamos utilizar o **JUnit** no **Eclipse** para automatizar os testes de unidade, de integração e de sistema
 - Crie um projeto maven e durante a criação opte por um arquétipo simples
 - Crie a classe *Person* dentro de um pacote no estilo "br.com.lucasbueno.entities" que estará dentro de src/main/java
