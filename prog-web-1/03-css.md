@@ -10,5 +10,4 @@
 - Clicando no ícone de globo no canto superior direito você pode alterar o idioma do tutorial;
 - CSS é a linguagem que utilizamos para estilizar, descrever como os elementos de HTML, devem ser mostrados
 - HTML não foi planejada para ter tags de formatação (apesar de conter algumas)
-- 
 
